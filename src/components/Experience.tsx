@@ -9,15 +9,13 @@ const Experience = () => {
     duration: "December 2024 – Present",
     location: "Remote",
     highlights: [
-      "Designed and optimized data pipelines and infrastructure for improved data processing efficiency",
-      "Transformed complex datasets into actionable business insights using advanced analytics techniques",
-      "Collaborated with cross-functional teams to drive analytics capabilities and support data-driven decisions",
-      "Implemented scalable data solutions to support real-time analytics and business intelligence",
-      "Worked with modern data engineering tools and frameworks to build robust data architecture"
+      "Developed Python Solutions to Extract, Transform, and Load(ETL) data from diverse health and activity data sources, architecting high quality pipelines for the Bronze, Silver and Gold Layers",
+      "Leveraged PySpark to optimize data transformation workflows, significantly reducing processing time compared to legacy Python code, resulting in greater platform scalability",
+      "Designed and Orchestrated end-to-end data workflow in Apache Airflow, building custom DAGs to fetch and process data from  Android and iPhone sources, ensuring timely and reliable ingestion into core systems"
     ],
     technologies: [
-      "Python", "Apache Spark", "Apache Kafka", "SQL", "Docker", 
-      "GCP", "BigQuery", "Airflow", "Hadoop"
+      "Python", "Apache Spark", "SQL", 
+      "GCP", "Airflow", "Hadoop", "PySpark", "PostgreSQL"
     ]
   };
 
@@ -29,7 +27,7 @@ const Experience = () => {
             <h2 className="text-4xl font-bold text-text-primary mb-4">Experience</h2>
             <div className="w-24 h-1 bg-hero-accent mx-auto"></div>
             <p className="text-text-secondary mt-4 max-w-2xl mx-auto">
-              My professional journey in data engineering and analytics
+              My Professional Journey in Data Engineering and Analytics
             </p>
           </div>
 
@@ -88,7 +86,7 @@ const Experience = () => {
 
           <div className="mt-8 text-center">
             <p className="text-text-secondary">
-              Looking forward to new opportunities and challenges in data engineering
+              Looking Forward to New Opportunities And Challenges in Data Engineering
             </p>
           </div>
         </div>

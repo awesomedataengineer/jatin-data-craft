@@ -38,22 +38,16 @@ const About = () => {
             {/* Bio Content */}
             <div className="space-y-6">
               <h3 className="text-2xl font-semibold text-text-primary">
-                I'm Jatin Rana, A Data Engineer based in India
+                I'm Jatin Rana, a Data Engineer
               </h3>
               <p className="text-text-secondary leading-relaxed">
-                I've always been fascinated by the intersection of technology and data insights. 
-                My career has been dedicated to finding the perfect balance between efficient data 
-                processing and meaningful analytics that drive business decisions.
+                I love working with data and technology to help companies make smarter decisions.
               </p>
               <p className="text-text-secondary leading-relaxed">
-                With expertise in modern data engineering tools and frameworks, I specialize in 
-                building robust data pipelines, optimizing data infrastructure, and creating 
-                scalable solutions that support real-time analytics and business intelligence.
+                Over the years, I've built data systems that make it easier to collect, process, and understand information quickly and accurately.
               </p>
               <p className="text-text-secondary leading-relaxed">
-                I'm passionate about staying current with emerging technologies in the data 
-                engineering space and continuously improving my skills to deliver innovative 
-                solutions that make a real impact.
+                I enjoy learning new tools and techniques and finding better ways to solve problems with data. My goal is to turn complex data into clear insights that help teams succeed.
               </p>
             </div>
 

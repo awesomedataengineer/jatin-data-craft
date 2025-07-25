@@ -6,18 +6,24 @@ import Experience from "@/components/Experience";
 import Skills from "@/components/Skills";
 import Contact from "@/components/Contact";
 import Footer from "@/components/Footer";
+import BottomNav from "@/components/BottomNav"; // import BottomNav
 
 const Index = () => {
   return (
     <div className="min-h-screen bg-background">
-      <Header />
+      <div className="hidden md:block">
+        <Header />
+      </div>
       <Hero />
       <About />
-      <Education />
-      <Experience />
       <Skills />
+      <Experience />
+      <Education />
       <Contact />
       <Footer />
+      
+      {/* Bottom navigation bar for mobile */}
+      <BottomNav />
     </div>
   );
 };

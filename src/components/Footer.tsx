@@ -15,10 +15,10 @@ const Footer = () => {
             <span>by Jatin Rana</span>
           </div>
           
-          <div className="flex items-center gap-6 text-text-secondary text-sm">
+          {/* <div className="flex items-center gap-6 text-text-secondary text-sm">
             <a href="#" className="hover:text-hero-accent transition-colors">Privacy Policy</a>
             <a href="#" className="hover:text-hero-accent transition-colors">Terms of Service</a>
-          </div>
+          </div> */}
         </div>
       </div>
     </footer>

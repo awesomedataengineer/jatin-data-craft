@@ -4,10 +4,10 @@ import { GraduationCap, Calendar, MapPin } from "lucide-react";
 const Education = () => {
   const educationData = [
     {
-      level: "BTech",
+      level: "BTech in Computer Science",
       institution: "SGT University",
       location: "Gurgoan",
-      year: "Expected 2025", // Placeholder for future
+      year: "2019-2023", // Placeholder for future
       icon: GraduationCap,
       description: "Bachelor of Technology in Computer Science & Engineering"
     },
@@ -15,7 +15,7 @@ const Education = () => {
       level: "12th Grade",
       institution: "SR Century Public School",
       location: "Bahadurgarh",
-      year: "2021", // Placeholder for future
+      year: "2019", // Placeholder for future
       icon: GraduationCap,
       description: "Higher Secondary Education"
     },
@@ -23,7 +23,7 @@ const Education = () => {
       level: "10th Grade",
       institution: "SR Century Public School",
       location: "Bahadurgarh",
-      year: "2019", // Placeholder for future
+      year: "2017", // Placeholder for future
       icon: GraduationCap,
       description: "Secondary Education"
     }
@@ -37,7 +37,7 @@ const Education = () => {
             <h2 className="text-4xl font-bold text-text-primary mb-4">Education</h2>
             <div className="w-24 h-1 bg-hero-accent mx-auto"></div>
             <p className="text-text-secondary mt-4 max-w-2xl mx-auto">
-              My academic journey that has shaped my foundation in technology and data engineering
+              My Academic Journey that has Shaped My Foundation in Technology And Data Engineering
             </p>
           </div>
 
@@ -77,14 +77,14 @@ const Education = () => {
             })}
           </div>
 
-          <div className="mt-8 p-4 bg-muted/50 rounded-lg border border-border">
+          {/* <div className="mt-8 p-4 bg-muted/50 rounded-lg border border-border">
             <p className="text-center text-text-secondary text-sm">
               <span className="inline-flex items-center">
                 <Calendar className="h-4 w-4 mr-1" />
                 Graduation years can be updated as they become available
               </span>
             </p>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>

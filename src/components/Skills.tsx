@@ -92,7 +92,7 @@ const Skills = () => {
             <h2 className="text-4xl font-bold text-text-primary mb-4">Skills & Technologies</h2>
             <div className="w-24 h-1 bg-hero-accent mx-auto"></div>
             <p className="text-text-secondary mt-4 max-w-2xl mx-auto">
-              A comprehensive overview of the technologies and tools I work with to build robust data solutions
+              A Comprehensive Overview of the Technologies and Tools I work with to Build Robust Data Solutions
             </p>
           </div>
 
@@ -129,7 +129,7 @@ const Skills = () => {
           </div>
 
           {/* Stats Section */}
-          <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8">
+          {/* <div className="mt-16 grid grid-cols-2 lg:grid-cols-4 gap-8">
             <div className="text-center">
               <div className="text-3xl font-bold text-hero-accent mb-2">15+</div>
               <div className="text-text-secondary">Programming Languages</div>
@@ -146,7 +146,7 @@ const Skills = () => {
               <div className="text-3xl font-bold text-hero-accent mb-2">20+</div>
               <div className="text-text-secondary">Tools & Frameworks</div>
             </div>
-          </div>
+          </div> */}
         </div>
       </div>
     </section>
